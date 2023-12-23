@@ -5,6 +5,9 @@ $color-black: #000;
 $color-green: #02897a;
 $color-blue-main: #173a56;
 $color-a-links: #22343d;
+html {
+  scroll-behavior: smooth;
+}
 
 section:first-child {
   fill: linear-gradient(180deg, #ededed 0.35%, rgba(255, 255, 255, 0) 99.63%);

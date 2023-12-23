@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -16,7 +20,7 @@
 
 /* VARIABLES */
 $color-white: #fff;
-$color-whiter: #dedede;
+$color-whiter: #ececec;
 $color-black: #000;
 $color-green: #02897a;
 $color-blue-main: #173a56;

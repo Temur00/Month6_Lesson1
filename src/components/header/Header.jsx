@@ -43,10 +43,10 @@ function Header() {
                 <p className="logo-text">Product</p>
               </div>
               <div className="nav-item">
-                <a href="#">Product</a>
-                <a href="#">Customers</a>
-                <a href="#">Pricing</a>
-                <a href="#">Resources</a>
+                <a href="#product">Product</a>
+                <a href="#customers">Customers</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#resources">Resources</a>
                 <button className="sign-in">Sign in</button>
                 <button className="sign-in">Sign up</button>
               </div>

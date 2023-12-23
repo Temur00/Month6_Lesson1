@@ -5,7 +5,7 @@ function Hero() {
     <div>
       <section>
         <div className="container">
-          <div className="first-items">
+          <div id="resources" className="first-items">
             <p className="product">Product was Built Specifically for You</p>
             <div className="sign-cards">
               <div className="sign-card ">
@@ -45,7 +45,7 @@ function Hero() {
       </section>
       <section>
         <div className="container">
-          <div className="second-items">
+          <div id="product" className="second-items">
             <p className="strategy">Contents Strategies</p>
             <p className="focus">
               We focus on ergonomics and meeting you where you work. It's only a
@@ -72,7 +72,7 @@ function Hero() {
         </div>
       </section>
       <section>
-        <div className="container">
+        <div id="pricing" className="container">
           <div className="third-items">
             <p className="price">Price Table</p>
             <p className="offer">We offer competitive price</p>
@@ -128,7 +128,7 @@ function Hero() {
       </section>
       <section>
         <div className="container">
-          <div className="fourth-items">
+          <div id="customers" className="fourth-items">
             <p className="clients">What Clients Say</p>
             <p className="problems">
               Problems trying to resolve the conflict between the two major
@@ -210,7 +210,7 @@ function Hero() {
                   reach your financial goal.
                 </p>
                 <div className="owner-info">
-                  <img src="wahid.png" alt="Img" />
+                  <img src="man.png" alt="Img" />
                   <div className="info">
                     <p>Wahid Ari</p>
                     <p>Designer</p>
@@ -251,7 +251,7 @@ function Hero() {
                   reach your financial goal.
                 </p>
                 <div className="owner-info">
-                  <img src="wahid.png" alt="Img" />
+                  <img src="older.png" alt="Img" />
                   <div className="info">
                     <p>Wahid Ari</p>
                     <p>Designer</p>
