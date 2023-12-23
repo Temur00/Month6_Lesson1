@@ -186,6 +186,7 @@ section:nth-child(3) {
       font-style: normal;
       font-weight: 700;
       line-height: normal;
+      transition: 0.4s;
     }
     .offer {
       text-align: center;
@@ -195,6 +196,7 @@ section:nth-child(3) {
       font-style: normal;
       font-weight: 500;
       line-height: normal;
+      transition: 0.4s;
     }
     .th-cards {
       display: flex;
@@ -257,6 +259,7 @@ section:nth-child(3) {
               font-weight: 700;
               line-height: 30px; /* 125% */
               letter-spacing: 0.1px;
+              transition: 0.4s;
             }
             p:nth-child(2) {
               color: #afafaf;
@@ -266,6 +269,7 @@ section:nth-child(3) {
               font-weight: 400;
               line-height: 19px; /* 118.75% */
               letter-spacing: 0.1px;
+              transition: 0.4s;
             }
           }
         }
@@ -327,6 +331,8 @@ section:nth-child(3) {
       }
       .th-card:hover {
         background: $color-green;
+        box-shadow: 20px 20px 50px 10px #02897a;
+        box-shadow: 0px 9px 30px #02897a;
         .free {
           color: #fff;
         }
@@ -469,6 +475,7 @@ section:nth-child(5) {
     gap: 188px;
     border-radius: 32px;
     background: #02897a;
+    transition: 0.4s;
     .f-texts {
       p:first-child {
         padding-top: 49px;
@@ -479,6 +486,7 @@ section:nth-child(5) {
         font-style: normal;
         font-weight: 600;
         line-height: 151.4%; /* 48.448px */
+        transition: 0.4s;
       }
       button {
         margin-top: 49px;
@@ -493,6 +501,20 @@ section:nth-child(5) {
         line-height: normal;
         border-radius: 8px;
         background: #fff;
+        border: none;
+        transition: 0.4s;
+      }
+    }
+  }
+  .fifth-items:hover {
+    background: #e3e3e3;
+    .f-texts {
+      p:first-child {
+        color: #02897a;
+      }
+      button {
+        color: #ffffff;
+        background: #02897a;
         border: none;
       }
     }
