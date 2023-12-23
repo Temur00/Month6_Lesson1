@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../../../public/Poppins-Regular.ttf);
+}
+
+/* VARIABLES */
+$color-white: #fff;
+$color-whiter: #dedede;
+$color-black: #000;
+$color-green: #02897a;
+$color-blue-main: #173a56;
+$color-a-links: #22343d;
