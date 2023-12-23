@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../../../public/Poppins-Regular.ttf);
+}
+
+/* VARIABLES */
+$color-white: #fff;
+$color-whiter: #dedede;
+$color-black: #000;
+$color-green: #02897a;
+$color-blue-main: #173a56;
+$color-a-links: #22343d;
+
+header {
+  font-family: Poppins;
+  nav {
+    background: $color-whiter;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    .nav-items {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 146px;
+      padding-right: 148px;
+      .logo {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+        svg {
+          margin-top: 19px;
+          margin-bottom: 24px;
+        }
+        .logo-text {
+          color: $color-blue-main;
+          font-size: 30px;
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 28px; /* 93.333% */
+        }
+      }
+      .nav-item {
+        display: flex;
+        gap: 22px;
+        align-items: center;
+        justify-content: center;
+        a {
+          color: $color-a-links;
+          text-decoration: none;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px;
+          transition: 0.3s;
+        }
+        a:hover {
+          color: #0a1850;
+          transform: scale(1.09, 1);
+        }
+        .sign-in {
+          width: 102px;
+          height: 43px;
+          flex-shrink: 0;
+          color: $color-blue-main;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          border-radius: 4px;
+          border: 1px solid #bcd0e5;
+          transition: 0.4s;
+          cursor: pointer;
+        }
+        .sign-in:hover {
+          color: $color-white;
+          border-radius: 4px;
+          background: $color-green;
+        }
+      }
+    }
+  }
+  .after-nav {
+    padding-top: 80px;
+    display: flex;
+    gap: 33px;
+    .h-aft-texts {
+      padding-left: 145px;
+      padding-top: 145px;
+      p:first-child {
+        max-width: 400px;
+        color: $color-a-links;
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px; /* 150% */
+      }
+      p:nth-child(2) {
+        max-width: 465px;
+        padding-top: 18px;
+        color: $color-a-links;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 155.556% */
+      }
+      .buttons {
+        padding-top: 45px;
+        display: flex;
+        gap: 32px;
+        button {
+          display: flex;
+          gap: 5px;
+          align-items: center;
+          justify-content: center;
+          width: 178.048px;
+          height: 53px;
+          flex-shrink: 0;
+          color: #02897a;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          border-radius: 4px;
+          background: #fff;
+          border: none;
+          transition: 0.4s;
+          cursor: pointer;
+          svg {
+            fill: #02897a;
+          }
+        }
+        button:hover {
+          color: #fff;
+          svg {
+            fill: #fff;
+          }
+          background: #02897a;
+        }
+      }
+    }
+    img {
+      padding-top: 25px;
+    }
+  }
+}
+
+/* STOP ///////////////////////////////// */
+
+/* DARK LIGHT HTML*/
+
+/* <button id="dark-light">
+<img src="../public/dark.svg" alt="light" />
+</button> */
+
+/* DARK LIGHT CSS*/
+
+/* #dark-light {
+  text-align: center;
+  height: 42px;
+  width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  border: 1px solid #bcd0e5;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#dark-light:hover {
+  background: #c2c2c2;
+} */
+
+/* DARK LIGHT JS */
+/* // DARK MODE
+// let modeBtn = document.getElementById("dark-light");
+
+// modeBtn.addEventListener("click", function () {
+//   if (document.body.className != "light") {
+//     this.firstElementChild.src = "../public/light.svg";
+//   } else {
+//     this.firstElementChild.src = "../public/dark.svg";
+//   }
+//   document.body.classList.toggle("light");
+// }); */
