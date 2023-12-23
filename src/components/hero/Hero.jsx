@@ -264,7 +264,13 @@ function Hero() {
       </section>
       <section>
         <div className="container">
-          <div className="fifth-items"></div>
+          <div className="fifth-items">
+            <div className="f-texts">
+              <p>Join 100 Compannies who boost their business with Product</p>
+              <button>Get This</button>
+            </div>
+            <img src="screen.png" alt="Img" />
+          </div>
         </div>
       </section>
     </div>

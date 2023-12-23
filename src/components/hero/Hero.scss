@@ -456,4 +456,42 @@ section:nth-child(4) {
   }
 }
 section:nth-child(5) {
+  padding-top: 157px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .fifth-items {
+    display: flex;
+    width: 1110px;
+    gap: 188px;
+    border-radius: 32px;
+    background: #02897a;
+    .f-texts {
+      p:first-child {
+        padding-top: 49px;
+        padding-left: 51px;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 151.4%; /* 48.448px */
+      }
+      button {
+        margin-top: 49px;
+        margin-left: 51px;
+        // width: 150px;
+        padding: 13px 35px;
+        color: #02897a;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 8px;
+        background: #fff;
+        border: none;
+      }
+    }
+  }
 }
